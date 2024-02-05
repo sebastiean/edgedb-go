@@ -240,7 +240,7 @@ func generateObject(
 		tag := fmt.Sprintf(`edgedb:"%s"`, field.Name)
 		name := field.Name
 		if mixedCaps {
-			name = snakeToUpperMixedCase(name)
+			name = camelToUpperMixedCase(name)
 		}
 
 		typ.Fields = append(typ.Fields, goStructField{
@@ -280,7 +280,7 @@ func generateObjectV2(
 		tag := fmt.Sprintf(`edgedb:"%s"`, field.Name)
 		name := field.Name
 		if mixedCaps {
-			name = snakeToUpperMixedCase(name)
+			name = camelToUpperMixedCase(name)
 		}
 
 		typ.Fields = append(typ.Fields, goStructField{
@@ -321,7 +321,7 @@ func generateTuple(
 		if name != "" && name[0] >= '0' && name[0] <= '9' {
 			name = fmt.Sprintf("Element%s", name)
 		} else if mixedCaps {
-			name = snakeToUpperMixedCase(name)
+			name = camelToUpperMixedCase(name)
 		}
 
 		typ.Fields = append(typ.Fields, goStructField{
@@ -362,7 +362,7 @@ func generateTupleV2(
 		if name != "" && name[0] >= '0' && name[0] <= '9' {
 			name = fmt.Sprintf("Element%s", name)
 		} else if mixedCaps {
-			name = snakeToUpperMixedCase(name)
+			name = camelToUpperMixedCase(name)
 		}
 
 		typ.Fields = append(typ.Fields, goStructField{

@@ -341,6 +341,17 @@ func isNumberedArgsV2(desc *descriptor.V2) bool {
 }
 
 func snakeToUpperMixedCase(s string) string {
+	title := cases.Title(language.English)
+
+	parts := strings.Split(s, "_")
+	for i := 0; i < len(parts); i++ {
+		parts[i] = title.String(parts[i])
+	}
+
+	return strings.Join(parts, "")
+}
+
+func camelToUpperMixedCase(s string) string {
 	r := []rune(s)
 	res := string(append([]rune{unicode.ToUpper(r[0])}, r[1:]...))
 
