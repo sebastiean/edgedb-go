@@ -1,4 +1,4 @@
-module github.com/edgedb/edgedb-go
+module github.com/sebastiean/edgedb-go
 
 go 1.18
 
