@@ -26,10 +26,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/edgedb/edgedb-go/internal"
-	edgedb "github.com/edgedb/edgedb-go/internal/client"
-	"github.com/edgedb/edgedb-go/internal/descriptor"
-	"github.com/edgedb/edgedb-go/internal/edgedbtypes"
+	"github.com/sebastiean/edgedb-go/internal"
+	edgedb "github.com/sebastiean/edgedb-go/internal/client"
+	"github.com/sebastiean/edgedb-go/internal/descriptor"
+	"github.com/sebastiean/edgedb-go/internal/edgedbtypes"
 )
 
 var (

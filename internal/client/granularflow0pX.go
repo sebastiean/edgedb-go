@@ -21,10 +21,10 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/edgedb/edgedb-go/internal/buff"
-	"github.com/edgedb/edgedb-go/internal/codecs"
-	"github.com/edgedb/edgedb-go/internal/descriptor"
-	"github.com/edgedb/edgedb-go/internal/header"
+	"github.com/sebastiean/edgedb-go/internal/buff"
+	"github.com/sebastiean/edgedb-go/internal/codecs"
+	"github.com/sebastiean/edgedb-go/internal/descriptor"
+	"github.com/sebastiean/edgedb-go/internal/header"
 )
 
 func (c *protocolConnection) execGranularFlow0pX(

@@ -20,8 +20,8 @@
 package edgedb
 
 import (
-	edgedb "github.com/edgedb/edgedb-go/internal/client"
-	"github.com/edgedb/edgedb-go/internal/edgedbtypes"
+	edgedb "github.com/sebastiean/edgedb-go/internal/client"
+	"github.com/sebastiean/edgedb-go/internal/edgedbtypes"
 )
 
 const (

@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/edgedb/edgedb-go/internal/buff"
+	"github.com/sebastiean/edgedb-go/internal/buff"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

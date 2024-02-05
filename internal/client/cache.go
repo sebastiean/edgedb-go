@@ -47,9 +47,9 @@ import (
 	"encoding/binary"
 	"reflect"
 
-	"github.com/edgedb/edgedb-go/internal/codecs"
-	types "github.com/edgedb/edgedb-go/internal/edgedbtypes"
-	"github.com/edgedb/edgedb-go/internal/header"
+	"github.com/sebastiean/edgedb-go/internal/codecs"
+	types "github.com/sebastiean/edgedb-go/internal/edgedbtypes"
+	"github.com/sebastiean/edgedb-go/internal/header"
 )
 
 type codecKey struct {

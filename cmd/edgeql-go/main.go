@@ -37,9 +37,9 @@ import (
 	"time"
 	"unicode"
 
-	edgedb "github.com/edgedb/edgedb-go/internal/client"
-	"github.com/edgedb/edgedb-go/internal/descriptor"
 	toml "github.com/pelletier/go-toml/v2"
+	edgedb "github.com/sebastiean/edgedb-go/internal/client"
+	"github.com/sebastiean/edgedb-go/internal/descriptor"
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 )

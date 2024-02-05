@@ -19,9 +19,9 @@ package codecs
 import (
 	"unsafe"
 
-	"github.com/edgedb/edgedb-go/internal/buff"
-	"github.com/edgedb/edgedb-go/internal/descriptor"
-	types "github.com/edgedb/edgedb-go/internal/edgedbtypes"
+	"github.com/sebastiean/edgedb-go/internal/buff"
+	"github.com/sebastiean/edgedb-go/internal/descriptor"
+	types "github.com/sebastiean/edgedb-go/internal/edgedbtypes"
 )
 
 // noOpDecoder decodes empty blocks i.e. does nothing.

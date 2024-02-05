@@ -93,7 +93,7 @@ func renderTypesPage() []string {
 	}
 
 	p, err := doc.NewFromFiles(
-		fset, files, "github.com/edgedb/edgedb-go/internal/edgedbtypes")
+		fset, files, "github.com/sebastiean/edgedb-go/internal/edgedbtypes")
 	if err != nil {
 		panic(err)
 	}
@@ -120,7 +120,7 @@ func renderAPIPage(skipTypeNames []string) {
 		readAndParseFile(fset, "export.go"),
 	}
 
-	p, err := doc.NewFromFiles(fset, files, "github.com/edgedb/edgedb-go")
+	p, err := doc.NewFromFiles(fset, files, "github.com/sebastiean/edgedb-go")
 	if err != nil {
 		panic(err)
 	}
@@ -220,7 +220,7 @@ func renderIndexPage() {
 		readAndParseFile(fset, "doc_test.go"),
 	}
 
-	p, err := doc.NewFromFiles(fset, files, "github.com/edgedb/edgedb-go")
+	p, err := doc.NewFromFiles(fset, files, "github.com/sebastiean/edgedb-go")
 	if err != nil {
 		panic(err)
 	}
@@ -280,7 +280,7 @@ func renderCodegenPage() {
 	}
 
 	p, err := doc.NewFromFiles(
-		fset, files, "github.com/edgedb/edgedb-go/cmd/edgeql-go")
+		fset, files, "github.com/sebastiean/edgedb-go/cmd/edgeql-go")
 	if err != nil {
 		panic(err)
 	}

@@ -24,7 +24,7 @@ import (
 	"math"
 	"os"
 
-	types "github.com/edgedb/edgedb-go/internal/edgedbtypes"
+	types "github.com/sebastiean/edgedb-go/internal/edgedbtypes"
 )
 
 type credentials struct {

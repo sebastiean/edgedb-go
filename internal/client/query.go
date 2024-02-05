@@ -23,9 +23,9 @@ import (
 	"fmt"
 	"reflect"
 
-	types "github.com/edgedb/edgedb-go/internal/edgedbtypes"
-	"github.com/edgedb/edgedb-go/internal/header"
-	"github.com/edgedb/edgedb-go/internal/introspect"
+	types "github.com/sebastiean/edgedb-go/internal/edgedbtypes"
+	"github.com/sebastiean/edgedb-go/internal/header"
+	"github.com/sebastiean/edgedb-go/internal/introspect"
 )
 
 type query struct {

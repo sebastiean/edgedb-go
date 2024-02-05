@@ -19,7 +19,7 @@ package codecs
 import (
 	"fmt"
 
-	"github.com/edgedb/edgedb-go/internal/buff"
+	"github.com/sebastiean/edgedb-go/internal/buff"
 )
 
 func encodeOptional(

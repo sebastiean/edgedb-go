@@ -19,7 +19,7 @@ package buff
 import (
 	"encoding/binary"
 
-	types "github.com/edgedb/edgedb-go/internal/edgedbtypes"
+	types "github.com/sebastiean/edgedb-go/internal/edgedbtypes"
 )
 
 // Writer is a write buffer.

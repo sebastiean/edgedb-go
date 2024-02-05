@@ -19,8 +19,8 @@ package edgedb
 import (
 	"context"
 
-	"github.com/edgedb/edgedb-go/internal"
-	"github.com/edgedb/edgedb-go/internal/descriptor"
+	"github.com/sebastiean/edgedb-go/internal"
+	"github.com/sebastiean/edgedb-go/internal/descriptor"
 )
 
 // CommandDescription is the information returned in the CommandDataDescription

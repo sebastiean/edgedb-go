@@ -27,7 +27,7 @@ import (
 	"syscall"
 	"unicode/utf8"
 
-	"github.com/edgedb/edgedb-go/internal/buff"
+	"github.com/sebastiean/edgedb-go/internal/buff"
 )
 
 var (

@@ -4,7 +4,7 @@ import (
 	"context"
 	"log"
 
-	edgedb "github.com/edgedb/edgedb-go/internal/client"
+	edgedb "github.com/sebastiean/edgedb-go/internal/client"
 )
 
 // Transactions can be executed using the Tx() method. Note that queries are

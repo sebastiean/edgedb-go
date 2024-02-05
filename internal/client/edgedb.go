@@ -21,12 +21,12 @@ import (
 	"log"
 	"time"
 
-	"github.com/edgedb/edgedb-go/internal"
-	"github.com/edgedb/edgedb-go/internal/buff"
-	"github.com/edgedb/edgedb-go/internal/cache"
-	"github.com/edgedb/edgedb-go/internal/codecs"
-	"github.com/edgedb/edgedb-go/internal/snc"
-	"github.com/edgedb/edgedb-go/internal/soc"
+	"github.com/sebastiean/edgedb-go/internal"
+	"github.com/sebastiean/edgedb-go/internal/buff"
+	"github.com/sebastiean/edgedb-go/internal/cache"
+	"github.com/sebastiean/edgedb-go/internal/codecs"
+	"github.com/sebastiean/edgedb-go/internal/snc"
+	"github.com/sebastiean/edgedb-go/internal/soc"
 )
 
 type cacheCollection struct {

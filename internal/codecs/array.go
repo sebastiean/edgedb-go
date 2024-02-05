@@ -21,10 +21,10 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/edgedb/edgedb-go/internal"
-	"github.com/edgedb/edgedb-go/internal/buff"
-	"github.com/edgedb/edgedb-go/internal/descriptor"
-	types "github.com/edgedb/edgedb-go/internal/edgedbtypes"
+	"github.com/sebastiean/edgedb-go/internal"
+	"github.com/sebastiean/edgedb-go/internal/buff"
+	"github.com/sebastiean/edgedb-go/internal/descriptor"
+	types "github.com/sebastiean/edgedb-go/internal/edgedbtypes"
 )
 
 func buildArrayEncoder(

@@ -17,8 +17,8 @@
 package edgedb
 
 import (
-	"github.com/edgedb/edgedb-go/internal/buff"
-	"github.com/edgedb/edgedb-go/internal/header"
+	"github.com/sebastiean/edgedb-go/internal/buff"
+	"github.com/sebastiean/edgedb-go/internal/header"
 )
 
 func ignoreHeaders(r *buff.Reader) {

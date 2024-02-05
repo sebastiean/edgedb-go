@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/edgedb/edgedb-go/internal/buff"
-	"github.com/edgedb/edgedb-go/internal/codecs"
-	"github.com/edgedb/edgedb-go/internal/descriptor"
-	"github.com/edgedb/edgedb-go/internal/state"
+	"github.com/sebastiean/edgedb-go/internal/buff"
+	"github.com/sebastiean/edgedb-go/internal/codecs"
+	"github.com/sebastiean/edgedb-go/internal/descriptor"
+	"github.com/sebastiean/edgedb-go/internal/state"
 )
 
 func (c *protocolConnection) execGranularFlow1pX(

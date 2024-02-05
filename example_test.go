@@ -20,7 +20,7 @@ import (
 	"context"
 	"testing"
 
-	edgedb "github.com/edgedb/edgedb-go"
+	edgedb "github.com/sebastiean/edgedb-go"
 )
 
 var (

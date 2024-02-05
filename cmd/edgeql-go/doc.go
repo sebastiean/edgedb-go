@@ -22,7 +22,7 @@
 //
 // # Install
 //
-//	go install github.com/edgedb/edgedb-go/cmd/edgeql-go@latest
+//	go install github.com/sebastiean/edgedb-go/cmd/edgeql-go@latest
 //
 // See also [pinning tool dependencies].
 //

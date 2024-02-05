@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/edgedb/edgedb-go/internal"
-	"github.com/edgedb/edgedb-go/internal/buff"
-	"github.com/edgedb/edgedb-go/internal/edgedbtypes"
+	"github.com/sebastiean/edgedb-go/internal"
+	"github.com/sebastiean/edgedb-go/internal/buff"
+	"github.com/sebastiean/edgedb-go/internal/edgedbtypes"
 )
 
 // V2 is a type descriptor

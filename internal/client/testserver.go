@@ -33,8 +33,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/edgedb/edgedb-go/internal"
-	"github.com/edgedb/edgedb-go/internal/edgedbtypes"
+	"github.com/sebastiean/edgedb-go/internal"
+	"github.com/sebastiean/edgedb-go/internal/edgedbtypes"
 )
 
 var (

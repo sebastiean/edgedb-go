@@ -21,10 +21,10 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/edgedb/edgedb-go/internal/buff"
-	"github.com/edgedb/edgedb-go/internal/descriptor"
-	types "github.com/edgedb/edgedb-go/internal/edgedbtypes"
-	"github.com/edgedb/edgedb-go/internal/introspect"
+	"github.com/sebastiean/edgedb-go/internal/buff"
+	"github.com/sebastiean/edgedb-go/internal/descriptor"
+	types "github.com/sebastiean/edgedb-go/internal/edgedbtypes"
+	"github.com/sebastiean/edgedb-go/internal/introspect"
 )
 
 var optionalTypeNameLookup = map[reflect.Type]string{

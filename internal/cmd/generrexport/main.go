@@ -24,7 +24,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/edgedb/edgedb-go/internal/errgen"
+	"github.com/sebastiean/edgedb-go/internal/errgen"
 )
 
 //nolint:typecheck
@@ -58,7 +58,7 @@ func main() {
 
 package edgedb
 
-import edgedb "github.com/edgedb/edgedb-go/internal/client"
+import edgedb "github.com/sebastiean/edgedb-go/internal/client"
 
 const (
 `)

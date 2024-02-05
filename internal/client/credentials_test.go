@@ -19,7 +19,7 @@ package edgedb
 import (
 	"testing"
 
-	types "github.com/edgedb/edgedb-go/internal/edgedbtypes"
+	types "github.com/sebastiean/edgedb-go/internal/edgedbtypes"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

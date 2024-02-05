@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"time"
 
-	types "github.com/edgedb/edgedb-go/internal/edgedbtypes"
-	"github.com/edgedb/edgedb-go/internal/marshal"
+	types "github.com/sebastiean/edgedb-go/internal/edgedbtypes"
+	"github.com/sebastiean/edgedb-go/internal/marshal"
 )
 
 var (

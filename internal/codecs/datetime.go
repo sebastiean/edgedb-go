@@ -22,9 +22,9 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/edgedb/edgedb-go/internal/buff"
-	types "github.com/edgedb/edgedb-go/internal/edgedbtypes"
-	"github.com/edgedb/edgedb-go/internal/marshal"
+	"github.com/sebastiean/edgedb-go/internal/buff"
+	types "github.com/sebastiean/edgedb-go/internal/edgedbtypes"
+	"github.com/sebastiean/edgedb-go/internal/marshal"
 )
 
 // DateTimeCodec encodes/decodes time.Time values.

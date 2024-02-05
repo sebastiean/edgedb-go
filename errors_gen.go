@@ -19,7 +19,7 @@
 
 package edgedb
 
-import edgedb "github.com/edgedb/edgedb-go/internal/client"
+import edgedb "github.com/sebastiean/edgedb-go/internal/client"
 
 const (
 	InternalServerError                    = edgedb.InternalServerError

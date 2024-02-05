@@ -21,7 +21,7 @@ import (
 	"math"
 	"time"
 
-	types "github.com/edgedb/edgedb-go/internal/edgedbtypes"
+	types "github.com/sebastiean/edgedb-go/internal/edgedbtypes"
 )
 
 // Options for connecting to an EdgeDB server

@@ -31,8 +31,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/edgedb/edgedb-go/internal/edgedbtypes"
-	"github.com/edgedb/edgedb-go/internal/snc"
+	"github.com/sebastiean/edgedb-go/internal/edgedbtypes"
+	"github.com/sebastiean/edgedb-go/internal/snc"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

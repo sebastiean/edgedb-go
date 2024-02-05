@@ -17,8 +17,8 @@
 package state
 
 import (
-	"github.com/edgedb/edgedb-go/internal/codecs"
-	"github.com/edgedb/edgedb-go/internal/descriptor"
+	"github.com/sebastiean/edgedb-go/internal/codecs"
+	"github.com/sebastiean/edgedb-go/internal/descriptor"
 )
 
 type setOfArrayCodec struct {
