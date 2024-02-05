@@ -228,7 +228,7 @@ func cmdVarName(qryFile string) string {
 func queryName(qryFile string) string {
 	name := filepath.Base(qryFile)
 	name = strings.TrimSuffix(name, ".edgeql")
-	return snakeToLowerMixedCase(name)
+	return snakeToUpperMixedCase(name)
 }
 
 func signatureTypes(
